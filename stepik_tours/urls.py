@@ -24,7 +24,5 @@ urlpatterns = [
     path('tour/<int:id>', views.tour_view),
 ]
 
-handler400 = views.custom_handler400
-handler403 = views.custom_handler403
 handler404 = views.custom_handler404
 handler500 = views.custom_handler500
